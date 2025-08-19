@@ -1,5 +1,5 @@
-a=int(input("Enter the num1=")
-b=int(input("Enter the num2=")
+a=int(input("Enter the num1="))
+b=int(input("Enter the num2="))
 while(b!=0):
     rem=a%b
     a=b
