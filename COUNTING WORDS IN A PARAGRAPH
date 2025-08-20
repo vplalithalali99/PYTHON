@@ -1,0 +1,5 @@
+paragraph = input("Enter a paragraph: ")
+
+words = paragraph.split()
+word_count = len(words)
+print("Number of words in the paragraph:", word_count)
