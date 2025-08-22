@@ -1,0 +1,10 @@
+student=["Arjun","Ram","Abhimanyu","sneha","keerthi"]
+marks=[[20,30,40,50],[30,40,24,60],[48,34,56,70],[32,35,68,67],[40,24,36,50]]
+percentage=[]
+
+for i in marks:
+    d=sum(i)//4
+    percentage.append(d)
+    
+for i in range(5):  
+    print("{}.{} : {}%".format (i+1,student[i],percentage[i]))
